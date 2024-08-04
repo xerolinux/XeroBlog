@@ -477,7 +477,7 @@ wordcount: false
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 busuanzi_use: 0 # 0: original / 1: qingjiao (other: other custom busuanzi platform)
 # --------------------------- end ---------------------------
 
