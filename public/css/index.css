@@ -3878,7 +3878,7 @@ span.tags-punctuation i {
   padding: 10px 7.5px;
 }
 #page-header #nav #nav-right .nav-button a.console_switchbutton:hover label i {
-  background: var(--efu-white);
+  background: var(--efu-card-bg);
 }
 #page-header #nav #nav-right .nav-button a.console_switchbutton:hover label .left {
   width: 0.5rem;
@@ -5347,7 +5347,7 @@ span.tags-punctuation {
 #home_top .recent-top-post-group .recent-post-top .recent-post-group {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
   align-content: space-between;
   gap: 0.5rem;
@@ -5412,7 +5412,6 @@ span.tags-punctuation {
   display: flex;
   flex-direction: column;
   width: calc(100% / 3 - 0.5rem);
-  min-width: 200px;
   align-items: flex-start;
   background: var(--efu-card-bg);
   border-radius: 12px;

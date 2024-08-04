@@ -115,8 +115,8 @@ aside:
     content: Here is my personal blog # Introduction (Invalid if style is 1)
     content2: The personal feelings & thoughts of a Linux Dev/Maintainer. # Introduction (Invalid if style is 1)
     sayhello: # Style 2 is invalid
-      morning: ✨ Good morning. It's a new day 
-      noon: It's time for a midday break 
+      morning: ✨ Good morning. It's a new day
+      noon: It's time for a midday break
       afternoon: Tea time. 🍵
       night: early bedtime
       goodnight: Good night 😴
@@ -366,8 +366,8 @@ envelope:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# This part of the content uses metingjs, 
-# can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region, 
+# This part of the content uses metingjs,
+# can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region,
 # the subsequent consideration of the use of JSON files to store music information and customize the implementation of the third-party API does not depend on the.
 # Music Page
 meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" # Custom API
@@ -387,7 +387,7 @@ capsule:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# Quick Menu 
+# Quick Menu
 # Open with shift + ?
 keyboard:
   enable: false
@@ -418,7 +418,7 @@ copy:
 # --------------------------- start ---------------------------
 # Lazyload
 lazyload:
-  enable: true
+  enable: false
   field: site # post, site
   placeholder: /img/loading.avif
   errorimg: /img/error_load.avif
@@ -529,7 +529,7 @@ comment:
   lazyload: false # Lazy load
   count: false # Whether to use the comment count
   pv: false # Whether to use the page view count
-  avatar: https://cravatar.cn # Avatar
+  avatar: https://gravatar.com/avatar # Avatar
   hot_tip: # Hot comment tips
     enable: false
     count: 3 # Display when more than 3 comments
@@ -552,8 +552,8 @@ valine:
   style: true # Use custom styles when turned on
   option: # options list
 artalk:
-  server: # server url 
-  site: # site name 
+  server: # server url
+  site: # site name
   option: # options
 giscus:
   repo: # GitHub repository name
@@ -615,7 +615,7 @@ extends:
 # PWA
 pwa:
   enable: false
-  manifest: /manifest.json # manifest.json 
+  manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
   mask_icon: /img/pwa/favicon.png # Mask icon
   apple_touch_icon: /img/pwa/favicon.png # Apple touch icon
@@ -712,7 +712,7 @@ CDN:
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Custom format
   # Directly override the default CDN link (highest priority)
   option:
-    busuanzi_qj_js: https://pv.lemonso.com/js
+    busuanzi_qj_js: https://vercount.one/js
     # algolia_search:
     # instantsearch:
     # pjax:
